@@ -1,4 +1,4 @@
-# lumail-io
+# Lumail
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,143 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-lumail-io is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://lumail.io/
+Lumail provides AI-powered email marketing tools that help businesses create, personalize, and automate email campaigns. The platform offers features such as AI-generated copy, segmentation, workflow automation, and analytics, aiming to simplify email marketing and improve engagement. Lumail targets marketers, SaaS founders, and content creators looking for smarter email solutions, and positions itself as an alternative to traditional platforms like Mailchimp and Brevo.
+
+**Areas:** Company · AI · Email Marketing · Automation · SaaS
+
+## Lumail on APIs.io
+
+Everything profiled for Lumail is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/lumail-io/](https://apis.io/providers/lumail-io/)** — or go straight to one of the APIs or properties below.
+
+### APIs (7)
+
+- [Lumail Campaigns API](https://apis.io/apis/lumail-io/lumail-io-campaigns-api/) — Draft and scheduled campaigns.
+- [Lumail Domains API](https://apis.io/apis/lumail-io/lumail-io-domains-api/) — Sending domain registration and DNS.
+- [Lumail Email API](https://apis.io/apis/lumail-io/lumail-io-email-api/) — Transactional email.
+- [Lumail Events API](https://apis.io/apis/lumail-io/lumail-io-events-api/) — Subscriber activity events.
+- [Lumail Subscribers API](https://apis.io/apis/lumail-io/lumail-io-subscribers-api/) — Subscriber records and tags.
+- [Lumail Tags API](https://apis.io/apis/lumail-io/lumail-io-tags-api/) — Organization audience tags.
+- [Lumail Verify API](https://apis.io/apis/lumail-io/lumail-io-verify-api/) — Address verification service.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Lumail Agentic Access](https://apis.io/agentic-access/lumail-io/lumail-io-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [CampaignListResponse](https://apis.io/schemas/lumail-io/lumail-io-campaign-list-response/)
+- [SubscriberInput](https://apis.io/schemas/lumail-io/lumail-io-subscriber-input/)
+- [TransactionalEmailInput](https://apis.io/schemas/lumail-io/lumail-io-transactional-email-input/)
+- [V2EmailObject](https://apis.io/schemas/lumail-io/lumail-io-v2-email-object/)
+- [V2TransactionalEmailInput](https://apis.io/schemas/lumail-io/lumail-io-v2-transactional-email-input/)
+- [VerifyResponse](https://apis.io/schemas/lumail-io/lumail-io-verify-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Lumail Io Context](https://apis.io/jsonld/lumail-io/lumail-io-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Lumail API Rules](https://apis.io/rules/lumail-io/lumail-io-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Lumail Authentication](https://apis.io/security/lumail-io/lumail-io-authentication/)
+- [Lumail Domain Security](https://apis.io/security/lumail-io/lumail-io-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Lumail Plans Pricing](https://apis.io/plans/lumail-io/lumail-io-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Lumail Rate Limits](https://apis.io/rate-limits/lumail-io/lumail-io-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://lumail.io/)
+- [Documentation](https://lumail.io/docs)
+- [Getting started](https://lumail.io/docs/workflows/workflow-getting-started)
+- [API reference](https://lumail.io/docs/api-reference/v2)
+- [Pricing](https://lumail.io/pricing)
+- [Support](https://lumail.io/support)
+- [Changelog](https://lumail.io/changelog)
+- [Blog](https://lumail.io/posts)
+- [Terms of service](https://lumail.io/legal/terms)
+- [Privacy policy](https://lumail.io/privacy)
+
+## API Evangelist rating
+
+**Kin Score 62.8** — strong · rubric 0.28.0 · scored 2026-11-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 63.3 |
+| Contract governance | 79.1 |
+| Operational transparency | 38.6 |
+| Developer ergonomics | 68.3 |
+| Access clarity | 59.1 |
+
+**Agent readiness 59.4** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | yes |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | mostly (partial credit) |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 17.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/lumail-io/](https://apis.io/providers/lumail-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Lumail: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/lumail-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
